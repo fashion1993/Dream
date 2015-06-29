@@ -1,0 +1,368 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.section1,
+.section2,
+.section3 {
+  background: url("../img/bg3.png");
+}
+.section4 {
+  background: url("../img/bg4.png") no-repeat bottom center;
+  background-size: 100% 100%;
+}
+.section5 {
+  background: url("../img/bg5.png") no-repeat bottom center;
+  background-size: 100% 100%;
+}
+.title1 {
+  width: 300px;
+  height: 20%;
+  margin: auto;
+  background: url("../img/title.gif") no-repeat bottom center;
+  background-size: 100% 100%;
+}
+.title2 {
+  width: 300px;
+  height: 40%;
+  margin: auto;
+  background: url("../img/work.gif") no-repeat bottom center;
+  background-size: 100% 100%;
+}
+.title3 {
+  width: 300px;
+  height: 40%;
+  margin: auto;
+  background: url("../img/industry.gif") no-repeat bottom center;
+  background-size: 100% 100%;
+}
+.title4 {
+  width: 300px;
+  height: 30%;
+  margin: auto;
+  background: url("../img/grades.png") no-repeat bottom center;
+  background-size: 100% 100%;
+}
+.title5 {
+  width: 300px;
+  height: 30%;
+  margin: auto;
+  background: url("../img/titleLast.png") no-repeat bottom center;
+  background-size: 100% 100%;
+}
+.person {
+  height: 40%;
+  position: absolute;
+}
+.person1 {
+  height: 40%;
+  position: absolute;
+  width: 150px;
+  left: 50%;
+  bottom: 20%;
+  margin-left: -75px;
+}
+.person2 {
+  height: 40%;
+  position: absolute;
+  width: 40%;
+  left: 60%;
+  bottom: -60%;
+}
+.person3 {
+  height: 40%;
+  position: absolute;
+  width: 30%;
+  left: 70%;
+  bottom: -163%;
+}
+.banner-word {
+  width: 200px;
+  height: 13%;
+  margin: auto;
+}
+.banner-word img {
+  margin-top: 20px;
+  width: 100%;
+  height: 100%;
+}
+.bg-page {
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  bottom: 0;
+}
+.bg-page img {
+  margin-top: 0;
+  width: 100%;
+  height: 100%;
+}
+.next1 {
+  height: 30px;
+  width: 100px;
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  margin-left: -50px;
+}
+.next1 img {
+  margin-top: 0;
+  width: 100%;
+  height: 100%;
+}
+.next2-btn,
+.next3-btn,
+.next1-btn-hover,
+.next2-btn-hover,
+.next3-btn-hover,
+.next4-btn-hover {
+  display: none;
+}
+.next2 {
+  height: 30px;
+  width: 100px;
+  position: absolute;
+  bottom: -98%;
+  left: 50%;
+  margin-left: -50px;
+}
+.next2 img {
+  margin-top: 0;
+  width: 100%;
+  height: 100%;
+}
+.next3 {
+  height: 30px;
+  width: 100px;
+  position: absolute;
+  bottom: -198%;
+  left: 50%;
+  margin-left: -50px;
+}
+.next3 img {
+  margin-top: 0;
+  width: 100%;
+  height: 100%;
+}
+.next4 {
+  height: 30px;
+  width: 100px;
+  position: absolute;
+  bottom: -298%;
+  left: 50%;
+  margin-left: -50px;
+}
+.next4 img {
+  margin-top: 0;
+  width: 100%;
+  height: 100%;
+}
+.select {
+  width: 100px;
+  height: 10%;
+  margin-top: 35px;
+  margin-left: 15%;
+}
+.select img {
+  width: 100%;
+  height: 100%;
+}
+.option-click {
+  background: #7B5AD6;
+}
+.options {
+  width: 230px;
+  margin: 35px auto 10px;
+  height: 25%;
+  overflow: scroll;
+  text-align: center;
+  color: #00DEFF;
+  font-size: 18px;
+}
+.options p {
+  margin: 5px auto;
+}
+.options::-webkit-scrollbar {
+  display: none;
+}
+.option-border-lt {
+  height: 30%;
+  width: 4%;
+  position: absolute;
+  left: 10%;
+  bottom: -91%;
+  background: url("../img/border.png") no-repeat bottom center;
+  background-size: 100% 100%;
+}
+.option-border-rt {
+  height: 30%;
+  width: 4%;
+  position: absolute;
+  right: 10%;
+  bottom: -91%;
+  background: url("../img/border.png") no-repeat bottom center;
+  background-size: 100% 100%;
+}
+.option-border-lt1 {
+  height: 30%;
+  width: 4%;
+  position: absolute;
+  left: 10%;
+  bottom: -191%;
+  background: url("../img/border.png") no-repeat bottom center;
+  background-size: 100% 100%;
+}
+.option-border-rt1 {
+  height: 30%;
+  width: 4%;
+  position: absolute;
+  right: 10%;
+  bottom: -191%;
+  background: url("../img/border.png") no-repeat bottom center;
+  background-size: 100% 100%;
+}
+.finger-print {
+  z-index: 10;
+  width: 60px;
+  height: 60px;
+  margin: 20px auto;
+}
+.finger-print img {
+  margin-top: 0;
+  width: 100%;
+  height: 100%;
+}
+.answer {
+  width: 200px;
+  height: 100px;
+  margin: 10px auto;
+}
+.answer img {
+  margin-top: 0;
+  width: 100%;
+  height: 100%;
+}
+.grade {
+  width: 100px;
+  height: 60px;
+  position: absolute;
+  bottom: -227%;
+  left: 45%;
+  z-index: 100;
+  font-size: 45px;
+  color: #FFEF00;
+  text-align: center;
+}
+.suprise {
+  z-index: 10;
+  width: 200px;
+  height: 50px;
+  margin: 10px auto;
+}
+.suprise img {
+  margin-top: 0;
+  width: 100%;
+  height: 100%;
+}
+.share-bg {
+  height: 100%;
+}
+.share-bg img {
+  width: 100%;
+  height: 100%;
+}
+.share-btn {
+  width: 130px;
+  height: 40px;
+  position: absolute;
+  bottom: -350%;
+  left: 50%;
+  margin-left: -65px;
+}
+.share-btn img {
+  margin-top: 10px;
+  width: 100%;
+  height: 100%;
+}
+.share-btn .share-dream1 {
+  display: none;
+}
+.share-btn .start-dream1 {
+  display: none;
+}
+.fullbg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 400%;
+  z-index: 10;
+  display: none;
+}
+.fullbg img {
+  width: 100%;
+  height: 100%;
+}
+@media screen and (min-height: 600px) {
+  .options {
+    margin-top: 65px;
+    font-size: 21px;
+  }
+}
+@media screen and (min-height: 530px) {
+  .grade {
+    bottom: -224%;
+  }
+}
+@media screen and (min-height: 760px) {
+  .grade {
+    left: 48%;
+  }
+}
+@media screen and (min-height: 1000px) {
+  .options {
+    margin-top: 100px;
+  }
+  .next {
+    width: 150px;
+    height: 70px;
+    margin-left: -75px;
+  }
+  .suprise {
+    width: 250px;
+    height: 80px;
+  }
+}
+@media screen and (min-width: 750px) {
+  .title2,
+  .title3 {
+    width: 750px;
+  }
+  .title4,
+  .title5 {
+    width: 400px;
+  }
+  .share-btn {
+    width: 200px;
+    height: 80px;
+    margin-left: -100px;
+  }
+  .answer {
+    width: 400px;
+    height: 150px;
+  }
+  .grade {
+    left: 50%;
+  }
+  .options {
+    width: 400px;
+    font-size: 35px;
+  }
+  .option-border-lt,
+  .option-border-lt1 {
+    left: 20%;
+  }
+  .option-border-rt,
+  .option-border-rt1 {
+    right: 20%;
+  }
+}
